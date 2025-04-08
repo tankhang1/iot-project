@@ -40,25 +40,23 @@
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        android:orientation="vertical"
-        >
+        app:layout_constraintStart_toStartOf="parent">
 
+        <!-- BlurView comes first (drawn behind) -->
         <eightbitlab.com.blurview.BlurView
             android:id="@+id/blurView"
             android:layout_width="match_parent"
             android:layout_height="104dp"
             android:clickable="false"
             android:focusable="false"
-            android:background="@drawable/rounded_top"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintStart_toStartOf="parent"/>
+            android:background="@drawable/rounded_top"/>
 
+        <!-- Button comes after (drawn on top) -->
         <com.example.learning.ui.components.Button
+            android:id="@+id/startedButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:color="@color/gray00"
@@ -66,6 +64,5 @@
             android:layout_marginTop="24dp"
             android:layout_marginHorizontal="16dp"
             app:textSize="15px" />
-
     </FrameLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

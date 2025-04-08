@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Declare shared attributes ONCE -->
+    <attr name="text" format="string"/>
+    <attr name="color" format="color"/>
+    <attr name="textSize" format="dimension"/>
+    <attr name="layout_height" format="dimension"/>
+    <attr name="layout_weight" format="dimension"/>
+
+    <!-- Now reference them in both styleables -->
+    <declare-styleable name="Header">
+        <attr name="text"/>
+        <attr name="color"/>
+        <attr name="textSize"/>
+        <attr name="layout_height"/>
+        <attr name="layout_weight"/>
+    </declare-styleable>
+
+    <declare-styleable name="Button">
+        <attr name="text"/>
+        <attr name="color"/>
+        <attr name="textSize"/>
+        <attr name="layout_height"/>
+        <attr name="layout_weight"/>
+    </declare-styleable>
+
+</resources>
