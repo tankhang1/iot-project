@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">learning</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- ✅ Home Screen -->
+    <string name="if_the_earth_is_healthy_we_are_healthy_too">지구가 건강하면\n우리도 건강해진다</string>
+    <string name="relax_in_the_warm_sunshine_a_clean_daily_life_that_i_enjoy_while_breathing">따스한 햇살 아래 마음 놓고\n숨쉬며 즐기던 청정 일상</string>
+    <string name="getting_started">시작하기</string>
+
+    <!-- ✅ Login Screen UI -->
+    <string name="login_title">로그인</string>
+    <string name="signup_quickly">✨ 3초만에 <b>빠르게</b> 회원가입!</string>
+
+    <!-- ✅ Social Buttons -->
+    <string name="continue_with_kakao">카카오톡으로 계속하기</string>
+    <string name="continue_with_facebook">페이스북으로 계속하기</string>
+    <string name="continue_with_phone">전화번호로 계속하기</string>
+    <string name="continue_with_naver">네이버로 계속하기</string>
+    <string name="continue_with_google">Google로 계속하기</string>
+    <string name="continue_with_apple">Apple로 계속하기</string>
+
+    <!-- ✅ Bottom Navigation -->
+    <string name="sign_up_normal">일반 회원가입</string>
+    <string name="login_normal">일반 로그인</string>
+</resources>

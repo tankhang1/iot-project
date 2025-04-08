@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="main">#3851A1</color>
+    <color name="text.텍스트_메인">#222222</color>
+    <color name="text.텍스트_서브">#444444</color>
+    <color name="text.텍스트_부수적인">#767676</color>
+    <color name="text.텍스트_캡션">#a0a0a0</color>
+    <color name="gray900">#232527</color>
+    <color name="gray800">#444444</color>
+    <color name="gray700">#636363</color>
+    <color name="gray600">#777777</color>
+    <color name="gray500">#a0a0a0</color>
+    <color name="gray400">#bfbfbf</color>
+    <color name="gray300">#e2e2e2</color>
+    <color name="gray200">#efefef</color>
+    <color name="gray100">#f5f5f5</color>
+    <color name="gray50">#fafafa</color>
+    <color name="gray00">#fefefe</color>
+    <color name="gray00_60">#99FEFEFE</color>
+
+</resources>
